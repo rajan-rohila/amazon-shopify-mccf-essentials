@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"container-type: inline-size;\">\n\t<script type=\"module\" src=\"http://localhost:3001/elements/amazon-account-linking-learn-more-banner/v1.0/web-component.js\"></script>\n\t<amazon-account-linking-learn-more-banner></amazon-account-linking-learn-more-banner>\n</div>",
+        "custom_liquid": "<div style=\"container-type: inline-size;\">\n\n\t<script type=\"module\" src=\"http://localhost:3001/elements/amazon-account-linking-learn-more-banner/v1.0/web-component.js\"></script>\n\t<amazon-account-linking-learn-more-banner></amazon-account-linking-learn-more-banner>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
