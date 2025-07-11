@@ -9,6 +9,16 @@
  */
 {
   "sections": {
+    "custom_liquid_mfc8xW": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"container-type: inline-size;\">\n\t<script type=\"module\" src=\"http://localhost:3001/elements/amazon-account-linking-learn-more-banner/v1.0/web-component.js\"></script>\n\t<amazon-account-linking-learn-more-banner></amazon-account-linking-learn-more-banner>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_mBqgA9": {
       "type": "image-banner",
       "blocks": {
@@ -218,25 +228,15 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "custom_liquid_mfc8xW": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div style=\"container-type: inline-size;\">\n\t<script type=\"module\" src=\"http://localhost:3001/elements/amazon-account-linking-learn-more-banner/v1.0/web-component.js\"></script>\n\t<amazon-account-linking-learn-more-banner></amazon-account-linking-learn-more-banner>\n</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
+    "custom_liquid_mfc8xW",
     "image_banner_mBqgA9",
     "featured_collection",
     "rich_text_kapxtX",
     "image_banner_w4DFXc",
     "rich_text_EBrBjT",
-    "image_with_text_cUp9Di",
-    "custom_liquid_mfc8xW"
+    "image_with_text_cUp9Di"
   ]
 }
