@@ -11,6 +11,28 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "1752623789e160b556": {
+      "type": "apps",
+      "blocks": {
+        "recharge_subscriptions_gifting_buy_button_49cte9": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/gifting-buy-button/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "rc_gift_button_text": "Send as gift",
+            "product": "",
+            "use_selected_product_url": false,
+            "horizontal_alignment": "center",
+            "max_width": 30,
+            "rc_gift_button_class": "button button--primary"
+          }
+        }
+      },
+      "block_order": [
+        "recharge_subscriptions_gifting_buy_button_49cte9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -34,11 +56,11 @@
         "announcement_KU66py"
       ],
       "settings": {
+        "auto_rotate": true,
+        "change_slides_speed": 5,
         "color_scheme": "inverse",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": true,
-        "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
@@ -48,6 +70,7 @@
       "custom_css": [],
       "settings": {
         "logo_position": "middle-left",
+        "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "reduce-logo-size",
@@ -57,15 +80,38 @@
         "enable_country_selector": true,
         "enable_language_selector": false,
         "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 12,
         "padding_bottom": 8
       }
+    },
+    "1752623810a115a662": {
+      "type": "apps",
+      "blocks": {
+        "recharge_subscriptions_gifting_buy_button_jNyAkj": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/gifting-buy-button/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "rc_gift_button_text": "Send as gift",
+            "product": "",
+            "use_selected_product_url": false,
+            "horizontal_alignment": "center",
+            "max_width": 30,
+            "rc_gift_button_class": "button button--primary"
+          }
+        }
+      },
+      "block_order": [
+        "recharge_subscriptions_gifting_buy_button_jNyAkj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
+    "1752623789e160b556",
     "announcement-bar",
-    "header"
+    "header",
+    "1752623810a115a662"
   ]
 }
