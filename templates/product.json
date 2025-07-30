@@ -45,7 +45,7 @@
         "custom_liquid_qfehnr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<amazon-delivery-card \nprovider=\"shopify\" \nvariation-helper=\"true\"\nshow-explainer=\"false\"\nproduct-amazon-sku=\"\"></amazon-delivery-card>"
           }
         },
         "buy_buttons": {
