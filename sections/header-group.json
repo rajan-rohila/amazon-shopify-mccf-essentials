@@ -106,12 +106,23 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_jczfUH": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script data-target-id=\"[YOUR-TARGET-ID]\" async type=\"module\" \n  src=\"https://cdn.elements.amazon/elements/amazon-delivery-card/v1.0/web-component.js\">\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "1752623789e160b556",
     "announcement-bar",
     "header",
-    "1752623810a115a662"
+    "1752623810a115a662",
+    "custom_liquid_jczfUH"
   ]
 }
