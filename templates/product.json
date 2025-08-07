@@ -49,15 +49,15 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "custom_liquid_qfehnr": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<amazon-delivery-card \nprovider=\"shopify\" \nvariation-helper=\"true\"\nshow-explainer=\"false\"\nproduct-amazon-sku=\"GG-0GZU-47G1\"></amazon-delivery-card>"
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -74,8 +74,8 @@
         "quantity_selector",
         "recharge_subscriptions_subscription_widget_v2_6cnnxD",
         "buy_buttons",
-        "description",
         "custom_liquid_qfehnr",
+        "description",
         "share"
       ],
       "settings": {
