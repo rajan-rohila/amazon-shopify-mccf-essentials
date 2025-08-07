@@ -42,12 +42,6 @@
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {}
         },
-        "custom_liquid_qfehnr": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<amazon-delivery-card \nprovider=\"shopify\" \nvariation-helper=\"true\"\nshow-explainer=\"false\"\nproduct-amazon-sku=\"GG-0GZU-47G1\"></amazon-delivery-card>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -58,6 +52,12 @@
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "custom_liquid_qfehnr": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<amazon-delivery-card \nprovider=\"shopify\" \nvariation-helper=\"true\"\nshow-explainer=\"false\"\nproduct-amazon-sku=\"GG-0GZU-47G1\"></amazon-delivery-card>"
+          }
         },
         "share": {
           "type": "share",
@@ -73,9 +73,9 @@
         "variant_picker",
         "quantity_selector",
         "recharge_subscriptions_subscription_widget_v2_6cnnxD",
-        "custom_liquid_qfehnr",
         "buy_buttons",
         "description",
+        "custom_liquid_qfehnr",
         "share"
       ],
       "settings": {
