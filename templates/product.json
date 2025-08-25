@@ -52,7 +52,7 @@
         "custom_liquid_qfehnr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<amazon-delivery-card \nprovider=\"shopify\" \nvariation-helper=\"true\"\nshow-explainer=\"false\"\nshow-learn-more=\"true\"\nbackground-color = \"#EFEFFD\"\nproduct-amazon-sku=\"GG-0GZU-47G1\"></amazon-delivery-card>"
+            "custom_liquid": "<amazon-delivery-card \nprovider=\"shopify\" \nvariation-helper=\"true\"\nshow-explainer=\"false\"\nshow-learn-more=\"true\"\ncolor-mode = \"dark\"\nbackground-color = \"#EFEFFD\"\nproduct-amazon-sku=\"GG-0GZU-47G1\"></amazon-delivery-card>"
           }
         },
         "description": {
