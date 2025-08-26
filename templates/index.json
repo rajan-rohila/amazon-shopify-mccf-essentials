@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_AVbJ9k": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<amazon-account-linking-card    partner=\"shoppay\">\n</amazon-account-linking-card>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_banner_mBqgA9": {
       "type": "image-banner",
       "blocks": {
@@ -65,6 +55,16 @@
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "left",
         "show_text_below": true
+      }
+    },
+    "custom_liquid_AVbJ9k": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<amazon-account-linking-card    partner=\"shoppay\">\n</amazon-account-linking-card>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured_collection": {

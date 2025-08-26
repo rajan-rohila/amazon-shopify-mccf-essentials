@@ -90,6 +90,7 @@
       "blocks": {
         "recharge_subscriptions_gifting_buy_button_jNyAkj": {
           "type": "shopify://apps/recharge-subscriptions/blocks/gifting-buy-button/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {
             "rc_gift_button_text": "Send as gift",
             "product": "",
