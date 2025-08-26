@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"container-type: inline-size; max-width:1000px\">\n\t<script type=\"module\" src=\"https://landour-gma.tuxedo.prod.barossa.dubai.aws.dev/elements/amazon-account-linking-learn-more-banner/v1.0/web-component.js\"></script>\n\t<amazon-account-linking-learn-more-banner></amazon-account-linking-learn-more-banner>\n</div>",
+        "custom_liquid": "<amazon-account-linking-card partner=\"shopify\">\n    </amazon-account-linking-card>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
