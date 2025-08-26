@@ -221,6 +221,7 @@
     },
     "custom_liquid_AVbJ9k": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<amazon-account-linking-card    partner=\"shoppay\">\n</amazon-account-linking-card>",

@@ -109,6 +109,7 @@
     },
     "custom_liquid_BmrqEz": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script \n        async \n        type=\"module\" \n        data-target-id=\"bp-037bf8e9-27fc-49b3-8f4a-3b52b9dc2ab4\" \n        src=\"https://cdn.elements.amazon/elements/amazon-account-linking-card/v1.0/web-component.js\">\n    </script>",
