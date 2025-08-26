@@ -11,7 +11,6 @@
   "sections": {
     "custom_liquid_mfc8xW": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div style=\"container-type: inline-size; max-width:1000px\">\n\t<script type=\"module\" src=\"https://landour-gma.tuxedo.prod.barossa.dubai.aws.dev/elements/amazon-account-linking-learn-more-banner/v1.0/web-component.js\"></script>\n\t<amazon-account-linking-learn-more-banner></amazon-account-linking-learn-more-banner>\n</div>",
