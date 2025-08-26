@@ -109,7 +109,6 @@
     },
     "custom_liquid_BmrqEz": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div id=\"my-custom-wrapper\">\n<script \n    async \n    type=\"module\" \n    data-target-id=\"bp-037bf8e9-27fc-49b3-8f4a-3b52b9dc2ab4\" \n    src=\"https://landour-gma.tuxedo.prod.barossa.dubai.aws.dev/elements/amazon-account-linking-card/v1.0/web-component.js\">\n</div>\n</script>",
