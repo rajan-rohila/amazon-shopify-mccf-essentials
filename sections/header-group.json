@@ -111,7 +111,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script data-target-id=\"bp-037bf8e9-27fc-49b3-8f4a-3b52b9dc2ab4\" async type=\"module\" \n  src=\"https://cdn.elements.amazon/elements/amazon-delivery-card/v1.0/web-component.js\">\n</script>",
+        "custom_liquid": "<script data-target-id=\"bp-1164c20e-d469-419b-80ca-7031021d9d08\" async type=\"module\" \n  src=\"https://cdn.elements.amazon/elements/amazon-delivery-card/v1.0/web-component.js\">\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
