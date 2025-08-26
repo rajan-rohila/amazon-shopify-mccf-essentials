@@ -106,24 +106,12 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "custom_liquid_jczfUH": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<script async \n        type=\"module\" \n        data-target-id=\"bp-1164c20e-d469-419b-80ca-7031021d9d08\"         src=\"https://cdn.elements.amazon/elements/amazon-account-linking-card/v1.0/web-component.js\">\n    </script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "1752623789e160b556",
     "announcement-bar",
     "header",
-    "1752623810a115a662",
-    "custom_liquid_jczfUH"
+    "1752623810a115a662"
   ]
 }
