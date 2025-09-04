@@ -19,31 +19,41 @@
     },
     "cart-footer": {
       "type": "main-cart-footer",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "padding_top": 20,
-        "padding_bottom": 40
-      },
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
+        },
+        "simply_shipping_protection_simply_side_cart_ayVreF": {
+          "type": "shopify://apps/simply-shipping-protection/blocks/simply-side-cart/e9bd463f-26d8-4126-9497-0375dca0f009",
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "subtotal",
+        "simply_shipping_protection_simply_side_cart_ayVreF",
         "buttons"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "1756948802d19ba3a1": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "1756948802d19ba3a1"
   ]
 }
