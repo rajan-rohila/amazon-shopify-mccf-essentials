@@ -20,12 +20,12 @@
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
-        "subtotal": {
-          "type": "subtotal",
-          "settings": {}
-        },
         "simply_shipping_protection_simply_side_cart_ayVreF": {
           "type": "shopify://apps/simply-shipping-protection/blocks/simply-side-cart/e9bd463f-26d8-4126-9497-0375dca0f009",
+          "settings": {}
+        },
+        "subtotal": {
+          "type": "subtotal",
           "settings": {}
         },
         "buttons": {
@@ -34,8 +34,8 @@
         }
       },
       "block_order": [
-        "subtotal",
         "simply_shipping_protection_simply_side_cart_ayVreF",
+        "subtotal",
         "buttons"
       ],
       "settings": {
