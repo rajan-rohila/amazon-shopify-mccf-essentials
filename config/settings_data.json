@@ -151,6 +151,27 @@
         "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
         "disabled": false,
         "settings": {}
+      },
+      "16843599010748508989": {
+        "type": "shopify://apps/simply-shipping-protection/blocks/simply-insurance/e9bd463f-26d8-4126-9497-0375dca0f009",
+        "disabled": false,
+        "settings": {
+          "ssp_checkout_checkbox": false,
+          "ssp_checkout_btn_text_content": "Checkout + ##plan_price## (Protection)",
+          "ssp_checkout_label_bg_color": "transparent",
+          "ssp_checkout_label_text_color": "#000000",
+          "ssp_checkout_btn_bg_color": "#000000",
+          "ssp_checkout_btn_text_color": "#ffffff",
+          "ssp_checkout_btn_bg_hover_color": "#000000",
+          "ssp_checkout_btn_text_hover_color": "#ffffff",
+          "ssp_checkout_btn_border_color": "#000000",
+          "ssp_checkout_btn_text_size": 15,
+          "ssp_checkout_btn_padding": 15,
+          "ssp_checkout_btn_border_size": 0,
+          "ssp_checkout_btn_border_radius": 0,
+          "ssp_consent_popup_checkbox": true,
+          "ssp_consent_popup_position": "topRight"
+        }
       }
     },
     "color_schemes": {
