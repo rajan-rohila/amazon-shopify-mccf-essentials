@@ -19,6 +19,22 @@
             "text_style": "uppercase"
           }
         },
+        "bold_discounts_flash_sales_sale_clock_iAfGfc": {
+          "type": "shopify://apps/bold-discounts-flash-sales/blocks/sale-clock/22ca27ee-084f-4527-b863-69a3cd4c8b2c",
+          "settings": {
+            "is_preview_enabled": true,
+            "templates": "template_1",
+            "text_align": "left",
+            "font_size": 16,
+            "font_color": "#000000",
+            "margin_size": 0,
+            "padding_size": 0,
+            "border_color": "#000000",
+            "border_size": 0,
+            "background_color": "transparent",
+            "custom_css": "#shappify_count_down {}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -68,6 +84,7 @@
       },
       "block_order": [
         "vendor",
+        "bold_discounts_flash_sales_sale_clock_iAfGfc",
         "title",
         "price",
         "variant_picker",
