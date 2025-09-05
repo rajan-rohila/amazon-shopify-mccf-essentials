@@ -57,13 +57,13 @@
             "show_gift_card_recipient": true
           }
         },
-        "amazon_mcf_delivery_card_xW36en": {
+        "amazon_mcf_delivery_card_DkDaKd": {
           "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
           "settings": {
             "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "color_mode": "light",
-            "background_color": "#6a6c7c",
-            "text_color": "#e0d8d8",
+            "color_mode": "dark",
+            "background_color": "",
+            "text_color": "",
             "font_family": "",
             "font_size_base": 14,
             "corner_style": "rounded",
@@ -91,14 +91,14 @@
         "recharge_subscriptions_subscription_widget_v2_6cnnxD",
         "custom_liquid_qfehnr",
         "buy_buttons",
-        "amazon_mcf_delivery_card_xW36en",
+        "amazon_mcf_delivery_card_DkDaKd",
         "description",
         "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "medium",
+        "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
@@ -134,11 +134,36 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1757115254e563a17b": {
+      "type": "apps",
+      "blocks": {
+        "amazon_mcf_delivery_card_pQ8HY8": {
+          "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
+          "settings": {
+            "target_id": "",
+            "color_mode": "light",
+            "background_color": "",
+            "text_color": "",
+            "font_family": "",
+            "font_size_base": 14,
+            "corner_style": "rounded",
+            "border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "amazon_mcf_delivery_card_pQ8HY8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1757030479e1b05334"
+    "1757030479e1b05334",
+    "1757115254e563a17b"
   ]
 }
