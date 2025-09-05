@@ -67,7 +67,7 @@
             "font_family": "Amazon Ember",
             "font_size_base": 14,
             "corner_style": "custom",
-            "border_radius": 24
+            "border_radius": 40
           }
         },
         "description": {
