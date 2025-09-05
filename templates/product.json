@@ -64,9 +64,9 @@
             "color_mode": "light",
             "background_color": "#f1dfdf",
             "text_color": "#695192",
-            "font_family": "",
+            "font_family": "Amazon Ember",
             "font_size_base": 14,
-            "corner_style": "rounded",
+            "corner_style": "pill",
             "border_radius": 24
           }
         },
