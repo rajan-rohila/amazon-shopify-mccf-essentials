@@ -19,22 +19,6 @@
             "text_style": "uppercase"
           }
         },
-        "bold_discounts_flash_sales_sale_clock_iAfGfc": {
-          "type": "shopify://apps/bold-discounts-flash-sales/blocks/sale-clock/22ca27ee-084f-4527-b863-69a3cd4c8b2c",
-          "settings": {
-            "is_preview_enabled": true,
-            "templates": "template_1",
-            "text_align": "left",
-            "font_size": 16,
-            "font_color": "#000000",
-            "margin_size": 0,
-            "padding_size": 0,
-            "border_color": "#000000",
-            "border_size": 0,
-            "background_color": "transparent",
-            "custom_css": "#shappify_count_down {}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -56,10 +40,12 @@
         },
         "recharge_subscriptions_subscription_widget_v2_6cnnxD": {
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {}
         },
         "custom_liquid_qfehnr": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<amazon-delivery-card \nprovider=\"shopify\" \nvariation-helper=\"true\"\nshow-explainer=\"false\"\nshow-learn-more=\"true\"\nshopify-domain=\"ycaecg-sj.myshopify.com\"\nproduct-external-id=\"{{product.selected_or_first_available_variant.id}}\"></amazon-delivery-card>"
           }
@@ -73,6 +59,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "share": {
@@ -84,7 +71,6 @@
       },
       "block_order": [
         "vendor",
-        "bold_discounts_flash_sales_sale_clock_iAfGfc",
         "title",
         "price",
         "variant_picker",

@@ -16,6 +16,7 @@
       "blocks": {
         "recharge_subscriptions_gifting_buy_button_49cte9": {
           "type": "shopify://apps/recharge-subscriptions/blocks/gifting-buy-button/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {
             "rc_gift_button_text": "Send as gift",
             "product": "",
@@ -110,6 +111,7 @@
     },
     "custom_liquid_BmrqEz": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script data-target-id=\n\"bp-1164c20e-d469-419b-80ca-7031021d9d08\" async type=\n\"module\"\nsrc=\"https://cdn.elements.amazon/elements/amazon-delivery-card/v1.0/web-component.js\">\n</script>",
