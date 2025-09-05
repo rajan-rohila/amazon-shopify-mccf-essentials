@@ -64,10 +64,10 @@
             "color_mode": "light",
             "background_color": "#f1dfdf",
             "text_color": "#695192",
-            "font_family": "Amazon Ember",
+            "font_family": "",
             "font_size_base": 14,
-            "corner_style": "custom",
-            "border_radius": 40
+            "corner_style": "rounded",
+            "border_radius": 24
           }
         },
         "description": {
