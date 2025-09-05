@@ -62,8 +62,8 @@
           "settings": {
             "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
             "color_mode": "light",
-            "background_color": "#f1dfdf",
-            "text_color": "#695192",
+            "background_color": "#6a6c7c",
+            "text_color": "#e0d8d8",
             "font_family": "",
             "font_size_base": 14,
             "corner_style": "rounded",
