@@ -38,11 +38,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "recharge_subscriptions_subscription_widget_v2_6cnnxD": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -81,7 +76,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "recharge_subscriptions_subscription_widget_v2_6cnnxD",
         "buy_buttons",
         "amazon_mcf_delivery_card_K8jNe7",
         "description",
@@ -129,24 +123,6 @@
     },
     "1757115254e563a17b": {
       "type": "apps",
-      "blocks": {
-        "amazon_mcf_delivery_card_pQ8HY8": {
-          "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
-          "settings": {
-            "target_id": "",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "",
-            "font_size_base": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        }
-      },
-      "block_order": [
-        "amazon_mcf_delivery_card_pQ8HY8"
-      ],
       "settings": {
         "include_margins": true
       }
