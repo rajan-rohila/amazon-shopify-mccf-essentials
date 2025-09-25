@@ -45,19 +45,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "amazon_mcf_delivery_card_K8jNe7": {
-          "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
-          "settings": {
-            "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "",
-            "font_size_base": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -77,7 +64,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "amazon_mcf_delivery_card_K8jNe7",
         "description",
         "share"
       ],
