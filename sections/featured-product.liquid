@@ -159,6 +159,7 @@
                   >
                     <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
                     {{- product.selected_or_first_available_variant.sku -}}
+                    alert({{ shop.permanent_domain }});
                   </p>
                 {%- when 'quantity_selector' -%}
                   <div
