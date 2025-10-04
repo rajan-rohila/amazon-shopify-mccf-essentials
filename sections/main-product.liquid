@@ -82,6 +82,52 @@
         <section
           id="ProductInfo-{{ section.id }}"
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
+          <!-- Amazon Delivery Card container -->
+<div id="amazon-delivery-card-container" data-color-mode="light" style="margin-top: 20px;"></div>
+
+<!-- Amazon Delivery Card script with your valid data-target-id -->
+<script 
+  data-target-id="bp-44aba631-b790-4849-85b9-5ce7bb3fa9ce" 
+  async 
+  type="module" 
+  src="https://cdn.elements.amazon/elements/amazon-delivery-card/v1.0/web-component.js">
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("amazon-delivery-card-container");
+    if (!container) return;
+
+    const colorMode = container.dataset.colorMode || "light";
+    const shopDomain = "{{ shop.permanent_domain | escape }}";
+    let variantId = "{{ product.selected_or_first_available_variant.id | default: '' }}";
+
+    function renderCard(variantIdToUse) {
+      if (!variantIdToUse) return;
+      container.innerHTML = "";
+      const card = document.createElement("amazon-delivery-card");
+      card.setAttribute("provider", "shopify");
+      card.setAttribute("shopify-domain", shopDomain);
+      card.setAttribute("product-external-id", variantIdToUse);
+      card.setAttribute("color-mode", colorMode);
+      card.setAttribute("font-size-base", "14px");
+      container.appendChild(card);
+    }
+
+    renderCard(variantId);
+
+    document.addEventListener("change", (e) => {
+      if (e.target.matches("[name='id']")) {
+        const newVariantId = e.target.value;
+        if (newVariantId && newVariantId !== variantId) {
+          variantId = newVariantId;
+          renderCard(newVariantId);
+        }
+      }
+    });
+  });
+</script>
+
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
