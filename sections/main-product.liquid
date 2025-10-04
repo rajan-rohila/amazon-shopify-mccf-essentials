@@ -82,10 +82,8 @@
         <section
           id="ProductInfo-{{ section.id }}"
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
-          <!-- Amazon Delivery Card container -->
-<div id="amazon-delivery-card-container" data-color-mode="light" style="margin-top: 20px;"></div>
+          <div id="amazon-delivery-card-container" data-color-mode="light" style="margin-top: 20px;"></div>
 
-<!-- Amazon Delivery Card script with your valid data-target-id -->
 <script 
   data-target-id="bp-44aba631-b790-4849-85b9-5ce7bb3fa9ce" 
   async 
@@ -101,7 +99,6 @@
     const colorMode = container.dataset.colorMode || "light";
     const shopDomain = "{{ shop.permanent_domain | escape }}";
     let variantId = "{{ product.selected_or_first_available_variant.id | default: '' }}";
-    alert(variantId);
 
     function renderCard(variantIdToUse) {
       if (!variantIdToUse) return;
