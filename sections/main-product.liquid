@@ -101,6 +101,7 @@
     const colorMode = container.dataset.colorMode || "light";
     const shopDomain = "{{ shop.permanent_domain | escape }}";
     let variantId = "{{ product.selected_or_first_available_variant.id | default: '' }}";
+    alert(variantId);
 
     function renderCard(variantIdToUse) {
       if (!variantIdToUse) return;
