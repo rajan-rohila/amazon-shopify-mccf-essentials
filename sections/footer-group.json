@@ -11,6 +11,23 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "1759747601630d3426": {
+      "type": "apps",
+      "blocks": {
+        "amazon_mcf_by_webbee_amazon_delivery_card_WwQhGe": {
+          "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
+          "settings": {
+            "color_mode": "dark"
+          }
+        }
+      },
+      "block_order": [
+        "amazon_mcf_by_webbee_amazon_delivery_card_WwQhGe"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "footer": {
       "type": "footer",
       "custom_css": [],
@@ -31,6 +48,7 @@
     }
   },
   "order": [
+    "1759747601630d3426",
     "footer"
   ]
 }
