@@ -47,6 +47,7 @@
         },
         "custom_liquid_ARQbBy": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<amazon-delivery-card \n  provider=\"shopify\"\n  variation-helper=\"true\"\n  color-mode=\"light\"\n  show-prime-upgrade=\"true\"\n  product-amazon-sku=\"GG-0GZU-47G1\">\n</amazon-delivery-card>"
           }
