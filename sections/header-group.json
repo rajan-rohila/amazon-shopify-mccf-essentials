@@ -13,23 +13,6 @@
   "sections": {
     "1752623789e160b556": {
       "type": "apps",
-      "blocks": {
-        "recharge_subscriptions_gifting_buy_button_49cte9": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/gifting-buy-button/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
-          "settings": {
-            "rc_gift_button_text": "Send as gift",
-            "product": "",
-            "use_selected_product_url": false,
-            "horizontal_alignment": "center",
-            "max_width": 30,
-            "rc_gift_button_class": "button button--primary"
-          }
-        }
-      },
-      "block_order": [
-        "recharge_subscriptions_gifting_buy_button_49cte9"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -89,21 +72,16 @@
     "1752623810a115a662": {
       "type": "apps",
       "blocks": {
-        "recharge_subscriptions_gifting_buy_button_jNyAkj": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/gifting-buy-button/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
+        "amazon_mcf_by_webbee_amazon_delivery_card_bkiVhC": {
+          "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
           "settings": {
-            "rc_gift_button_text": "Send as gift",
-            "product": "",
-            "use_selected_product_url": false,
-            "horizontal_alignment": "center",
-            "max_width": 30,
-            "rc_gift_button_class": "button button--primary"
+            "color_mode": "light",
+            "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08"
           }
         }
       },
       "block_order": [
-        "recharge_subscriptions_gifting_buy_button_jNyAkj"
+        "amazon_mcf_by_webbee_amazon_delivery_card_bkiVhC"
       ],
       "settings": {
         "include_margins": true
