@@ -48,7 +48,7 @@
         "amazon_mcf_delivery_card_YrFVdx": {
           "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
           "settings": {
-            "target_id": "",
+            "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
             "color_mode": "dark",
             "background_color": "#473737",
             "text_color": "#f3d9d9",
