@@ -45,19 +45,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "amazon_mcf_delivery_card_YrFVdx": {
-          "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
-          "settings": {
-            "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "color_mode": "light",
-            "background_color": "#1e2349",
-            "text_color": "#f3d9d9",
-            "font_family": "Serif",
-            "font_size_base": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -77,7 +64,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "amazon_mcf_delivery_card_YrFVdx",
         "description",
         "share"
       ],
@@ -114,10 +100,35 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "176115125832f51417": {
+      "type": "apps",
+      "blocks": {
+        "amazon_mcf_by_webbee_amazon_delivery_card_MaUHpc": {
+          "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
+          "settings": {
+            "color_mode": "light",
+            "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
+            "background_color": "#FFFFFF",
+            "text_color": "#000000",
+            "font_family": "Amazon Ember",
+            "font_size": 14,
+            "corner_style": "rounded",
+            "border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "amazon_mcf_by_webbee_amazon_delivery_card_MaUHpc"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "176115125832f51417"
   ]
 }
