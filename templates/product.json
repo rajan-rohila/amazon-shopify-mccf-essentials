@@ -42,9 +42,9 @@
           "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
           "settings": {
             "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "color_mode": "light",
+            "color_mode": "dark",
             "background_color": "",
-            "text_color": "",
+            "text_color": "#ffffff",
             "font_family": "",
             "font_size_base": 14,
             "corner_style": "rounded",
@@ -123,7 +123,7 @@
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "text_color": "#000000",
             "font_family": "Amazon Ember",
             "font_size": 14,
