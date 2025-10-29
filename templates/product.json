@@ -43,7 +43,7 @@
             "text_color": "#a91717",
             "font_family": "Amazon Ember",
             "font_size": 14,
-            "corner_style": "rounded",
+            "corner_style": "square",
             "border_radius": 30
           }
         },
