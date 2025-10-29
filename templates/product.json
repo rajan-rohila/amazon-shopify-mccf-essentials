@@ -66,6 +66,7 @@
         },
         "amazon_mcf_delivery_card_BzJ3Vn": {
           "type": "shopify://apps/amazon-mcf/blocks/delivery_card/0523890c-7e9e-4b20-9d63-319ecd7d47e6",
+          "disabled": true,
           "settings": {
             "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
             "color_mode": "light",
