@@ -36,10 +36,11 @@
         },
         "amazon_mcf_by_webbee_amazon_delivery_card_fHgaLa": {
           "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
+          "disabled": true,
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "text_color": "#000000",
             "font_family": "Amazon Ember",
             "font_size": 14,
