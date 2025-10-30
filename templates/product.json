@@ -59,6 +59,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_tetBBW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<amazon-delivery-card \nproduct-amazon-sku=\"ZD-EDJ0-FCCZ\"\nshow-prime-upgrade=\"true\"\ncolor-mode=\"light\"></amazon-delivery-card>"
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -93,6 +99,7 @@
         "amazon_mcf_by_webbee_amazon_delivery_card_fHgaLa",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_tetBBW",
         "description",
         "amazon_mcf_delivery_card_BzJ3Vn",
         "share"
