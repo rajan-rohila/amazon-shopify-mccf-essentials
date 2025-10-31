@@ -36,7 +36,6 @@
         },
         "amazon_mcf_by_webbee_amazon_delivery_card_fHgaLa": {
           "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
-          "disabled": true,
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
@@ -61,6 +60,7 @@
         },
         "custom_liquid_tetBBW": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<amazon-delivery-card \nproduct-amazon-sku=\"ZD-EDJ0-FCCZ\"\nshow-prime-upgrade=\"true\"\ncolor-mode=\"light\"></amazon-delivery-card>"
           }
@@ -170,8 +170,8 @@
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "transparent",
-            "text_color": "transparent",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
             "font_family": "default",
             "font_size": 14,
             "corner_style": "pill",
