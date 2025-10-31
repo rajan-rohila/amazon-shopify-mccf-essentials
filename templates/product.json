@@ -39,10 +39,10 @@
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "#7b4545",
+            "background_color": "#533a59",
             "text_color": "#713a3a",
             "font_family": "Amazon Ember",
-            "font_size": 14,
+            "font_size": 18,
             "corner_style": "rounded",
             "border_radius": 24
           }
