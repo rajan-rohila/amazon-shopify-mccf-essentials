@@ -36,8 +36,8 @@
             "text_color": "#794747",
             "font_family": "default",
             "font_size": 20,
-            "corner_style": "square",
-            "border_radius": 24
+            "corner_style": "custom",
+            "border_radius": 48
           }
         },
         "quantity_selector": {
