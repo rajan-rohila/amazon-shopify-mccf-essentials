@@ -146,11 +146,11 @@
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "transparent",
-            "text_color": "transparent",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
             "font_family": "default",
             "font_size": 14,
-            "corner_style": "rounded",
+            "corner_style": "square",
             "border_radius": 24
           }
         }
@@ -161,11 +161,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1761920953a4896c27": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "176115125832f51417"
+    "176115125832f51417",
+    "1761920953a4896c27"
   ]
 }
