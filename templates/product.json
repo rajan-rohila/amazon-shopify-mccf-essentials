@@ -141,13 +141,13 @@
     "176115125832f51417": {
       "type": "apps",
       "blocks": {
-        "amazon_mcf_by_webbee_amazon_delivery_card_7CwgNe": {
+        "amazon_mcf_by_webbee_amazon_delivery_card_deaddp": {
           "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "#121212",
-            "text_color": "#000000",
+            "background_color": "transparent",
+            "text_color": "transparent",
             "font_family": "default",
             "font_size": 14,
             "corner_style": "rounded",
@@ -156,7 +156,7 @@
         }
       },
       "block_order": [
-        "amazon_mcf_by_webbee_amazon_delivery_card_7CwgNe"
+        "amazon_mcf_by_webbee_amazon_delivery_card_deaddp"
       ],
       "settings": {
         "include_margins": true
