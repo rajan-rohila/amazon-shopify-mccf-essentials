@@ -35,7 +35,7 @@
             "background_color": "transparent",
             "text_color": "#794747",
             "font_family": "default",
-            "font_size": 14,
+            "font_size": 20,
             "corner_style": "square",
             "border_radius": 24
           }
