@@ -36,7 +36,7 @@
             "text_color": "#794747",
             "font_family": "default",
             "font_size": 14,
-            "corner_style": "rounded",
+            "corner_style": "square",
             "border_radius": 24
           }
         },
