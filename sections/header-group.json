@@ -21,9 +21,9 @@
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
             "background_color": "#cc2222",
             "text_color": "#ffffff",
-            "font_family": "Amber",
+            "font_family": "default",
             "font_size": 13,
-            "corner_style": "rounded",
+            "corner_style": "pill",
             "border_radius": 18
           }
         }
