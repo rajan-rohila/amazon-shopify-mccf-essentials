@@ -23,7 +23,7 @@
             "text_color": "#f1f1f1",
             "font_family": "default",
             "font_size": 19,
-            "corner_style": "square",
+            "corner_style": "pill",
             "border_radius": 30
           }
         }
