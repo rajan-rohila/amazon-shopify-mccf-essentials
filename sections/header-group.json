@@ -73,7 +73,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<scripttype=\"module\"data-target-id=\"bp-4bba5332-3b07-4ecf-a927-43116c82145d\"src=\"https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js\">\n</script>",
+        "custom_liquid": "<script type=\"module\" data-target-id=\"bp-4bba5332-3b07-4ecf-a927-43116c82145d\" src=\"https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js\">\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
