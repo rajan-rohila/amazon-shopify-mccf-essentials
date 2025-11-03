@@ -68,22 +68,11 @@
         "padding_top": 12,
         "padding_bottom": 8
       }
-    },
-    "custom_liquid_XeUapg": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "</div>\n<amazon-account-linking-card\npartner=\"shoppay\">\n</amazon-account-linking-card>\n</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "1752623789e160b556",
     "announcement-bar",
-    "header",
-    "custom_liquid_XeUapg"
+    "header"
   ]
 }

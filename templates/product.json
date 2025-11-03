@@ -19,6 +19,12 @@
             "text_style": "uppercase"
           }
         },
+        "custom_liquid_eKe4BC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "</div>\n<amazon-account-linking-card\npartner=\"shoppay\">\n</amazon-account-linking-card>\n</div>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -52,6 +58,7 @@
       },
       "block_order": [
         "vendor",
+        "custom_liquid_eKe4BC",
         "title",
         "price",
         "quantity_selector",
