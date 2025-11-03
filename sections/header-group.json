@@ -69,11 +69,11 @@
         "padding_bottom": 8
       }
     },
-    "custom_liquid_9CQVwU": {
+    "custom_liquid_XeUapg": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "type=\"module\" \n    data-target-id=\"bp-4bba5332-3b07-4ecf-a927-43116c82145d\" \n    src=\"https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js\">\n</script>",
+        "custom_liquid": "</div>\n<amazon-account-linking-card\npartner=\"shoppay\">\n</amazon-account-linking-card>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -84,6 +84,6 @@
     "1752623789e160b556",
     "announcement-bar",
     "header",
-    "custom_liquid_9CQVwU"
+    "custom_liquid_XeUapg"
   ]
 }
