@@ -19,12 +19,12 @@
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "#da1d1d",
-            "text_color": "#f1f1f1",
-            "font_family": "default",
+            "background_color": "#561010",
+            "text_color": "#c42020",
+            "font_family": "Amber",
             "font_size": 19,
-            "corner_style": "pill",
-            "border_radius": 30
+            "corner_style": "custom",
+            "border_radius": 18
           }
         }
       },
