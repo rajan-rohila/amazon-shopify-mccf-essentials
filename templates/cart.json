@@ -39,12 +39,6 @@
         "padding_bottom": 40
       }
     },
-    "1756948802d19ba3a1": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "custom_liquid_REjwTC": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -53,6 +47,12 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "1756948802d19ba3a1": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "1756948814930d86d5": {
@@ -65,8 +65,8 @@
   "order": [
     "cart-items",
     "cart-footer",
-    "1756948802d19ba3a1",
     "custom_liquid_REjwTC",
+    "1756948802d19ba3a1",
     "1756948814930d86d5"
   ]
 }
