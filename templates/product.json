@@ -38,26 +38,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "custom_liquid_tetBBW": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<amazon-delivery-card \nproduct-amazon-sku=\"ZD-EDJ0-FCCZ\"\nshow-prime-upgrade=\"true\"\ncolor-mode=\"light\"></amazon-delivery-card>"
-          }
-        },
-        "amazon_mcf_by_webbee_amazon_delivery_card_C7XAkG": {
-          "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
-          "settings": {
-            "color_mode": "light",
-            "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "transparent",
-            "text_color": "transparent",
-            "font_family": "default",
-            "font_size": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -76,8 +56,6 @@
         "price",
         "quantity_selector",
         "buy_buttons",
-        "custom_liquid_tetBBW",
-        "amazon_mcf_by_webbee_amazon_delivery_card_C7XAkG",
         "description",
         "share"
       ],

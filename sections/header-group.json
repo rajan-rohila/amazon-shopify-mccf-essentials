@@ -69,7 +69,7 @@
         "padding_bottom": 8
       }
     },
-    "custom_liquid_GCdtTJ": {
+    "custom_liquid_9CQVwU": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
@@ -84,6 +84,6 @@
     "1752623789e160b556",
     "announcement-bar",
     "header",
-    "custom_liquid_GCdtTJ"
+    "custom_liquid_9CQVwU"
   ]
 }
