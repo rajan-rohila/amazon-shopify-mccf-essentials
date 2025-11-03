@@ -21,6 +21,7 @@
         },
         "custom_liquid_eKe4BC": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div>\n<amazon-account-linking-card partner=\"shoppay\">\n</amazon-account-linking-card>\n</div>"
           }

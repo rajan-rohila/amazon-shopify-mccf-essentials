@@ -24,14 +24,6 @@
           "type": "subtotal",
           "settings": {}
         },
-        "simply_shipping_protection_simply_widget_6gjKkm": {
-          "type": "shopify://apps/simply-shipping-protection/blocks/simply-widget/e9bd463f-26d8-4126-9497-0375dca0f009",
-          "settings": {}
-        },
-        "simply_shipping_protection_simply_side_cart_BwV8qK": {
-          "type": "shopify://apps/simply-shipping-protection/blocks/simply-side-cart/e9bd463f-26d8-4126-9497-0375dca0f009",
-          "settings": {}
-        },
         "buttons": {
           "type": "buttons",
           "settings": {}
@@ -39,8 +31,6 @@
       },
       "block_order": [
         "subtotal",
-        "simply_shipping_protection_simply_widget_6gjKkm",
-        "simply_shipping_protection_simply_side_cart_BwV8qK",
         "buttons"
       ],
       "settings": {
@@ -55,6 +45,16 @@
         "include_margins": true
       }
     },
+    "custom_liquid_REjwTC": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div>\n<amazon-account-linking-card partner=\"shoppay\">\n</amazon-account-linking-card>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1756948814930d86d5": {
       "type": "apps",
       "settings": {
@@ -66,6 +66,7 @@
     "cart-items",
     "cart-footer",
     "1756948802d19ba3a1",
+    "custom_liquid_REjwTC",
     "1756948814930d86d5"
   ]
 }
