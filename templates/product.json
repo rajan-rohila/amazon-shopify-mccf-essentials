@@ -19,12 +19,6 @@
             "text_style": "uppercase"
           }
         },
-        "custom_liquid_eKe4BC": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "</div>\n<amazon-account-linking-card\npartner=\"shoppay\">\n</amazon-account-linking-card>\n</div>"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -54,17 +48,23 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_eKe4BC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "</div>\n<amazon-account-linking-card\npartner=\"shoppay\">\n</amazon-account-linking-card>\n</div>"
+          }
         }
       },
       "block_order": [
         "vendor",
-        "custom_liquid_eKe4BC",
         "title",
         "price",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "custom_liquid_eKe4BC"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -102,24 +102,6 @@
     },
     "176115125832f51417": {
       "type": "apps",
-      "blocks": {
-        "amazon_mcf_by_webbee_amazon_delivery_card_deaddp": {
-          "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
-          "settings": {
-            "color_mode": "light",
-            "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "rgba(0,0,0,0)",
-            "font_family": "default",
-            "font_size": 14,
-            "corner_style": "square",
-            "border_radius": 24
-          }
-        }
-      },
-      "block_order": [
-        "amazon_mcf_by_webbee_amazon_delivery_card_deaddp"
-      ],
       "settings": {
         "include_margins": true
       }
