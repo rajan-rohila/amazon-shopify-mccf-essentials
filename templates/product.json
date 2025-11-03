@@ -52,7 +52,7 @@
         "custom_liquid_eKe4BC": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "</div>\n<amazon-account-linking-card\npartner=\"shoppay\">\n</amazon-account-linking-card>\n</div>"
+            "custom_liquid": "</div>\n<amazon-account-linking-card\npartner=\"shoppay\">\n</amazon-account-linking-card</div>"
           }
         }
       },
