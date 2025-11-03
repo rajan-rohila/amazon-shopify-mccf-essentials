@@ -19,8 +19,8 @@
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "#561010",
-            "text_color": "#c42020",
+            "background_color": "#cc2222",
+            "text_color": "#ffffff",
             "font_family": "Amber",
             "font_size": 13,
             "corner_style": "rounded",
