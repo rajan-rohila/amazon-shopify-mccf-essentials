@@ -22,8 +22,8 @@
             "background_color": "#561010",
             "text_color": "#c42020",
             "font_family": "Amber",
-            "font_size": 19,
-            "corner_style": "custom",
+            "font_size": 13,
+            "corner_style": "rounded",
             "border_radius": 18
           }
         }
