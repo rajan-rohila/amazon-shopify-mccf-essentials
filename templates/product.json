@@ -30,7 +30,7 @@
         "custom_liquid_grR6eN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"{{ product.sku }}\"\n  show-prime-upgrade=\"true\" \n  color-mode=\"light\">\n</amazon-delivery-card>"
+            "custom_liquid": "html<amazon-delivery-card \n  id=\"delivery-card\"\n  show-prime-upgrade=\"true\" \n  color-mode=\"light\">\n</amazon-delivery-card>\n\n<script>\n  fetch('https://mccf-essentials.com/products/test-product.json')\n    .then(response => response.json())\n    .then(data => {\n      const card = document.getElementById('delivery-card');\n      const sku = data.product.variants[0].sku;\n      card.setAttribute('product-amazon-sku', sku);\n    })\n    .catch(error => console.error('Error fetching SKU:', error));\n</script>\n\n<script data-target-id=\"bp-037bf8e9-27fc-49b3-8f4a-3b52b9dc2ab4\" async type=\"module\"\nsrc=\"https://cdn.elements.amazon/elements/amazon-delivery-card/v1.0/web-component.js\">\n</script>"
           }
         },
         "quantity_selector": {
