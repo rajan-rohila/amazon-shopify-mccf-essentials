@@ -71,6 +71,7 @@
     },
     "custom_liquid_XghL6d": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script data-target-id=\"bp-037bf8e9-27fc-49b3-8f4a-3b52b9dc2ab4\" async type=\"module\"src=\"https://cdn.elements.amazon/elements/amazon-delivery-card/v1.0/web-component.js\">\n</script>",
