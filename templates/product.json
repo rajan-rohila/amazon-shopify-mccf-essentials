@@ -48,7 +48,7 @@
         "custom_liquid_grR6eN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<amazon-delivery-card \nproduct-amazon-sku=\"\nZD-EDJ0-FCCZ\"\nshow-prime-upgrade=\"true\"\ncolor-mode=\"light\"></amazon-delivery-card>"
+            "custom_liquid": "<amazon-delivery-card \nproduct-amazon-sku=\"ZD-EDJ0-FCCZ\"\nshow-prime-upgrade=\"true\"\ncolor-mode=\"light\"></amazon-delivery-card>"
           }
         },
         "buy_buttons": {
