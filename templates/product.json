@@ -19,13 +19,6 @@
             "text_style": "uppercase"
           }
         },
-        "custom_liquid_eKe4BC": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div>\n<amazon-account-linking-card partner=\"shoppay\">\n</amazon-account-linking-card>\n</div>"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -33,6 +26,12 @@
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "custom_liquid_grR6eN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"0C-UVFL-7IDD\" \n  show-prime-upgrade=\"true\" \n  color-mode=\"light\">\n</amazon-delivery-card>"
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -47,7 +46,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "share": {
@@ -59,9 +57,9 @@
       },
       "block_order": [
         "vendor",
-        "custom_liquid_eKe4BC",
         "title",
         "price",
+        "custom_liquid_grR6eN",
         "quantity_selector",
         "buy_buttons",
         "description",
