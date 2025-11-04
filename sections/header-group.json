@@ -13,24 +13,6 @@
   "sections": {
     "1752623789e160b556": {
       "type": "apps",
-      "blocks": {
-        "amazon_mcf_by_webbee_amazon_delivery_card_NjeEQ7": {
-          "type": "shopify://apps/amazon-mcf-by-webbee/blocks/amazon-delivery-card/607cf989-f688-448c-9916-a604c1d0b9f8",
-          "settings": {
-            "color_mode": "light",
-            "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "transparent",
-            "text_color": "transparent",
-            "font_family": "default",
-            "font_size": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        }
-      },
-      "block_order": [
-        "amazon_mcf_by_webbee_amazon_delivery_card_NjeEQ7"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -86,22 +68,11 @@
         "padding_top": 12,
         "padding_bottom": 8
       }
-    },
-    "custom_liquid_UFtCpF": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<script type=\"module\" data-target-id=\"bp-4bba5332-3b07-4ecf-a927-43116c82145d\" src=\"https://cdn.elements.amazon/elements/amazon-account-linking-card/v1.0/web-component.js\">\n</script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "1752623789e160b556",
     "announcement-bar",
-    "header",
-    "custom_liquid_UFtCpF"
+    "header"
   ]
 }
