@@ -37,8 +37,8 @@
           "settings": {
             "color_mode": "light",
             "amazon_target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "background_color": "transparent",
-            "text_color": "transparent",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
             "font_family": "default",
             "font_size": 14,
             "corner_style": "rounded",
@@ -47,6 +47,7 @@
         },
         "custom_liquid_grR6eN": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"{{ product.selected_or_first_available_variant.sku }}\"\n  show-prime-upgrade=\"true\" \n  color-mode=\"light\">\n</amazon-delivery-card>"
           }
