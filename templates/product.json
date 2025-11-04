@@ -30,7 +30,7 @@
         "custom_liquid_grR6eN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"0C-UVFL-7IDD\" \n  show-prime-upgrade=\"true\" \n  color-mode=\"light\">\n</amazon-delivery-card>"
+            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"\nZD-EDJ0-FCCZ\" \n  show-prime-upgrade=\"true\" \n  color-mode=\"light\">\n</amazon-delivery-card>"
           }
         },
         "quantity_selector": {
