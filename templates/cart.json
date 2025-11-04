@@ -14,7 +14,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "</div>\n <amazon-account-linking-card\n    partner=\"shoppay\"\nlayout=\"inline\"\nwidth=\"1456\"\nheight=\"100\">\n  </amazon-account-linking-card>\n</div>",
+        "custom_liquid": "<amazon-account-linking-card\n  partner=\"shoppay\"\n  layout=\"inline\">\n</amazon-account-linking-card>\n\n<style>\n  amazon-account-linking-card {\n    width: 100% !important;\n    max-width: 1456px !important;\n    height: auto !important;\n    display: block;\n    margin: 0 auto;\n  }\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
