@@ -21,7 +21,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "</div>\n <amazon-account-linking-card\n    partner=\"shoppay\">\n  </amazon-account-linking-card>\n</div>",
+        "custom_liquid": "</div>\n <amazon-account-linking-card\n    partner=\"shoppay\"\ncolor-mode=\"dark\">\n  </amazon-account-linking-card>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
