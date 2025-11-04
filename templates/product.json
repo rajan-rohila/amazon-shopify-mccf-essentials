@@ -48,7 +48,7 @@
         "custom_liquid_grR6eN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div id=\"amazon-card-container\"></div>\n\n<script>\n// Get the current product handle from the URL or Shopify\nconst productHandle = window.location.pathname.split('/products/')[1].split('/')[0];\n\nfetch(`https://mccf-essentials.com/products/${productHandle}.json`)\n  .then(response => response.json())\n  .then(data => {\n    const sku = data.product.variants[0].sku;\n    const container = document.getElementById('amazon-card-container');\n    container.innerHTML = `\n      <amazon-delivery-card \n        product-amazon-sku=\"${sku}\"\n        show-prime-upgrade=\"true\" \n        color-mode=\"light\">\n      </amazon-delivery-card>\n    `;\n  })\n  .catch(error => console.error('Error fetching SKU:', error));\n</script>"
+            "custom_liquid": "<div id=\"amazon-card-container\"></div>\n\n<script>\n// Use Shopify's meta object which is always available on product pages\nconst productHandle = {{ product.handle | json }};\n\nfetch(`https://mccf-essentials.com/products/${productHandle}.json`)\n  .then(response => response.json())\n  .then(data => {\n    const sku = data.product.variants[0].sku;\n    const container = document.getElementById('amazon-card-container');\n    container.innerHTML = `\n      <amazon-delivery-card \n        product-amazon-sku=\"${sku}\"\n        show-prime-upgrade=\"true\" \n        color-mode=\"light\">\n      </amazon-delivery-card>\n    `;\n  })\n  .catch(error => console.error('Error fetching SKU:', error));\n</script>"
           }
         },
         "buy_buttons": {
