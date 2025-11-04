@@ -14,7 +14,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"amazon-card-container\">\n  <amazon-account-linking-card\n    partner=\"shoppay\"\n    layout=\"inline\">\n  </amazon-account-linking-card>\n</div>\n\n<style>\n  .amazon-card-container {\n    width: 100%;\n    max-width: 1456px;\n    margin: 0 auto;\n  }\n  \n  .amazon-card-container amazon-account-linking-card {\n    width: 100% !important;\n    height: auto !important;\n    display: block;\n  }\n  \n  @media (max-width: 768px) {\n    .amazon-card-container {\n      padding: 0 15px;\n    }\n  }\n</style>",
+        "custom_liquid": "div style=\"width: 100%; max-width: 1456px; margin: 0 auto;\">\n  <amazon-account-linking-card\n    partner=\"shoppay\"\n    layout=\"inline\">\n  </amazon-account-linking-card>\n</div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
