@@ -86,8 +86,8 @@
       "settings": {
         "custom_liquid": "<script type=\"module\" data-target-id=\"bp-4bba5332-3b07-4ecf-a927-43116c82145d\" src=\"https://cdn.elements.amazon/elements/amazon-account-linking-card/v1.0/web-component.js\">\n</script>",
         "color_scheme": "",
-        "padding_top": 12,
-        "padding_bottom": 12
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
