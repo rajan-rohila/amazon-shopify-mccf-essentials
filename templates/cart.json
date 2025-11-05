@@ -14,7 +14,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "</div>\n <amazon-account-linking-card\n    partner=\"shoppay\"\nreturn-url=\"https://mccf-essentials.com/cart\">\n  </amazon-account-linking-card>\n</div>",
+        "custom_liquid": "</div>\n <amazon-account-linking-card\n    partner=\"shoppay\"></amazon-account-linking-card>\n <script>\ndocument.querySelector('amazon-account-linking-card').setAttribute('return-url', window.location.href);\n</script>\n</div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
