@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_dhKmLU": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "</div>\n <amazon-account-linking-card\n    partner=\"shoppay\" layout=\"inline\" width=\"1512\"></amazon-account-linking-card>\n <script>\ndocument.querySelector('amazon-account-linking-card').setAttribute('return-url', window.location.href);\n</script>\n</div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_banner_mBqgA9": {
       "type": "image-banner",
       "blocks": {
@@ -231,7 +221,6 @@
     }
   },
   "order": [
-    "custom_liquid_dhKmLU",
     "image_banner_mBqgA9",
     "featured_collection",
     "rich_text_kapxtX",
