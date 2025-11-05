@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "custom_liquid_Xi7aNT": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%; max-width: 1456px; margin: 0 auto;\">\n  <amazon-account-linking-card\n    partner=\"shoppay\"\n    layout=\"inline\">\n  </amazon-account-linking-card>\n</div>\n\n<style>\n  amazon-account-linking-card {\n    width: 100% !important;\n    height: auto !important;\n    display: block;\n  }\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -39,17 +50,6 @@
         "padding_bottom": 40
       }
     },
-    "custom_liquid_Xi7aNT": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div style=\"width: 100%; max-width: 1456px; margin: 0 auto;\">\n  <amazon-account-linking-card\n    partner=\"shoppay\"\n    layout=\"inline\">\n  </amazon-account-linking-card>\n</div>\n\n<style>\n  amazon-account-linking-card {\n    width: 100% !important;\n    height: auto !important;\n    display: block;\n  }\n</style>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "1756948802d19ba3a1": {
       "type": "apps",
       "settings": {
@@ -64,9 +64,9 @@
     }
   },
   "order": [
+    "custom_liquid_Xi7aNT",
     "cart-items",
     "cart-footer",
-    "custom_liquid_Xi7aNT",
     "1756948802d19ba3a1",
     "1756948814930d86d5"
   ]
