@@ -17,6 +17,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_CbatCa": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "</div> <amazon-account-linking-card partner=\"shoppay\"></amazon-account-linking-card>\n<script>\n   const element = document.querySelector('amazon-account-linking-card');\n    element.setAttribute('return-url', window.location.href);\n    element.setAttribute('width', window.innerWidth);\n </script>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -45,16 +55,6 @@
         "include_margins": true
       }
     },
-    "custom_liquid_CbatCa": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "</div> <amazon-account-linking-card partner=\"shoppay\"></amazon-account-linking-card>\n<script>\n   const element = document.querySelector('amazon-account-linking-card');\n    element.setAttribute('return-url', window.location.href);\n    element.setAttribute('width', window.innerWidth);\n </script>\n</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1756948814930d86d5": {
       "type": "apps",
       "settings": {
@@ -63,10 +63,10 @@
     }
   },
   "order": [
+    "custom_liquid_CbatCa",
     "cart-items",
     "cart-footer",
     "1756948802d19ba3a1",
-    "custom_liquid_CbatCa",
     "1756948814930d86d5"
   ]
 }
