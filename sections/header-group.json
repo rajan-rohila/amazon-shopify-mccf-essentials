@@ -73,7 +73,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script type=\"module\" data-target-id=\"bp-519601ae-7bdd-41b8-9033-97d7a8854168\" src=\"https://cdn.elements.amazon/elements/amazon-account-linking-card/v1.0/web-component.js\">\n</script>",
+        "custom_liquid": "<script type=\"module\" data-target-id=\"bp-519601ae-7bdd-41b8-9033-97d7a8854168\" src=\"https://landour.tuxedo.prod.barossa.dubai.aws.dev/elements/amazon-account-linking-card/v1.0/web-component.js\">\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
