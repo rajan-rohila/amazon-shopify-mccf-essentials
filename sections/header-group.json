@@ -69,11 +69,11 @@
         "padding_bottom": 8
       }
     },
-    "custom_liquid_gNetK4": {
+    "custom_liquid_RCWHqt": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script type=\"module\" data-target-id=\"bp-519601ae-7bdd-41b8-9033-97d7a8854168\" src=\"https://cdn.elements.amazon/elements/amazon-account-linking-card/v1.0/web-component.js\">\n</script>",
+        "custom_liquid": "<amazon-delivery-card \nproduct-amazon-sku=\"bp-1164c20e-d469-419b-80ca-7031021d9d08\"\nshow-prime-upgrade=\"true\"\ncolor-mode=\"light\"></amazon-delivery-card>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -84,6 +84,6 @@
     "1752623789e160b556",
     "announcement-bar",
     "header",
-    "custom_liquid_gNetK4"
+    "custom_liquid_RCWHqt"
   ]
 }
