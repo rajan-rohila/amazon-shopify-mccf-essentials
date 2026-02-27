@@ -30,7 +30,7 @@
         "custom_liquid_qTHAVr": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<amazon-delivery-card product-external-id=\"{{product.selected_or_first_available_variant.id}}\" show-prime-upgrade=\"true\" color-mode=\"light\"></amazon-delivery-card>"
+            "custom_liquid": "<amazon-delivery-card product-id=\"{{product.selected_or_first_available_variant.id}}\" show-prime-upgrade=\"true\" color-mode=\"light\"></amazon-delivery-card>"
           }
         },
         "quantity_selector": {
