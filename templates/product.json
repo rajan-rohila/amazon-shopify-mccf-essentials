@@ -29,9 +29,8 @@
         },
         "custom_liquid_qTHAVr": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<amazon-delivery-card product-sku=\"{{ product.selected_or_first_available_variant.sku }}\" show-prime-upgrade=\"true\" color-mode=\"light\"></amazon-delivery-card>"
+            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"{{ product.metafields.custom.amazon_sku }}\"\n  show-prime-upgrade=\"true\"\n  color-mode=\"light\">\n</amazon-delivery-card>"
           }
         },
         "quantity_selector": {
