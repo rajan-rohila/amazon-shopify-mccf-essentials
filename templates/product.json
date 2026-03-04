@@ -27,6 +27,19 @@
           "type": "price",
           "settings": {}
         },
+        "amazon_mcf_and_buy_with_prime_delivery_card_jQeaDN": {
+          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
+          "settings": {
+            "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
+            "color_mode": "light",
+            "background_color": "",
+            "text_color": "",
+            "font_family": "",
+            "font_size_base": 14,
+            "corner_style": "rounded",
+            "border_radius": 24
+          }
+        },
         "custom_liquid_qTHAVr": {
           "type": "custom_liquid",
           "disabled": true,
@@ -45,19 +58,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "amazon_mcf_and_buy_with_prime_delivery_card_jQeaDN": {
-          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
-          "settings": {
-            "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "",
-            "font_size_base": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -73,10 +73,10 @@
         "vendor",
         "title",
         "price",
+        "amazon_mcf_and_buy_with_prime_delivery_card_jQeaDN",
         "custom_liquid_qTHAVr",
         "quantity_selector",
         "buy_buttons",
-        "amazon_mcf_and_buy_with_prime_delivery_card_jQeaDN",
         "description",
         "share"
       ],
