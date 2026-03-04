@@ -31,8 +31,8 @@
           "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
             "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
-            "color_mode": "dark",
-            "background_color": "",
+            "color_mode": "light",
+            "background_color": "#533a59",
             "text_color": "",
             "font_family": "",
             "font_size_base": 14,
