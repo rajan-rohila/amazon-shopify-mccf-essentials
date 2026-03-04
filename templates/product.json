@@ -33,7 +33,7 @@
             "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
             "color_mode": "light",
             "background_color": "#533a59",
-            "text_color": "",
+            "text_color": "#533a59",
             "font_family": "",
             "font_size_base": 14,
             "corner_style": "rounded",
