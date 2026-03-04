@@ -35,9 +35,9 @@
             "background_color": "#533a59",
             "text_color": "#157fed",
             "font_family": "",
-            "font_size_base": 14,
+            "font_size_base": 16,
             "corner_style": "rounded",
-            "border_radius": 24
+            "border_radius": 14
           }
         },
         "custom_liquid_qTHAVr": {
