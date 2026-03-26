@@ -44,7 +44,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"{{ product.metafields.custom.amazon_sku }}\"\n  show-prime-upgrade=\"true\"\n  color-mode=\"light\">\n</amazon-delivery-card>"
+            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"P5-V02Y-HW3I\"\n  show-prime-upgrade=\"true\"\n  color-mode=\"light\">\n</amazon-delivery-card>"
           }
         },
         "quantity_selector": {
