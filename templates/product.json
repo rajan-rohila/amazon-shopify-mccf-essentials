@@ -30,7 +30,7 @@
         "amazon_mcf_and_buy_with_prime_delivery_card_jQeaDN": {
           "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
-            "target_id": "bp-1164c20e-d469-419b-80ca-7031021d9d08",
+            "target_id": "bp-9855bb0f-c5ad-430e-95c1-75fe48af4a8b",
             "color_mode": "light",
             "background_color": "rgba(0,0,0,0)",
             "text_color": "rgba(0,0,0,0)",
