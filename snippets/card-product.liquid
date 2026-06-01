@@ -154,7 +154,13 @@
           <amazon-delivery-message product-amazon-sku= "{{ card_product.selected_or_first_available_variant.sku }}" show-prime-upgrade= 'true'></amazon-delivery-message>
             
 {% assign current_variant = card_product.selected_or_first_available_variant %}
-  {{ current_variant.sku }}
+     {% assign external_id = current_variant.metafields.erp.external_id %}
+
+     {% if external_id != blank %}
+       <p class="product-card__external-id">
+         {{ external_id | escape }}
+       </p>
+     {% endif %}
 
 
           <h3
