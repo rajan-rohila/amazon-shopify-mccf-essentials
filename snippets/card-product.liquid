@@ -149,12 +149,9 @@
           <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js"></script>
           
           {% comment %} <amazon-delivery-message product-amazon-sku= "0C-UVFL-7IDD" show-prime-upgrade= 'true'></amazon-delivery-message> {% endcomment %}
-          
-          <p>Delivery Message:</p>
-          <amazon-delivery-message product-amazon-sku= "{{ card_product.metafields.amazon-sku.id }}" show-prime-upgrade= 'true'></amazon-delivery-message>
-  {% if card_product.metafields.custom.amazon_sku %}
-    {{ card_product.metafields.custom.amazon_sku | metafield_text }}
-  {% endif %}
+        
+          <amazon-delivery-message product-amazon-sku= "{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message>
+
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
