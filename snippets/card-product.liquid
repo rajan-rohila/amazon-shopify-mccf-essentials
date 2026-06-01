@@ -151,18 +151,7 @@
           {% comment %} <amazon-delivery-message product-amazon-sku= "0C-UVFL-7IDD" show-prime-upgrade= 'true'></amazon-delivery-message> {% endcomment %}
           
           <p>Delivery Message:</p>
-          <amazon-delivery-message product-amazon-sku= "{{ card_product.selected_or_first_available_variant.sku }}" show-prime-upgrade= 'true'></amazon-delivery-message>
-            
-{% assign current_variant = card_product.selected_or_first_available_variant %}
-     {% assign external_id = current_variant.metafields.erp.external_id %}
-
-     {% if external_id != blank %}
-       <p class="product-card__external-id">
-         {{ external_id | escape }}
-       </p>
-     {% endif %}
-
-
+          <amazon-delivery-message product-amazon-sku= "{{ card_product.metafield.amazon-sku }}" show-prime-upgrade= 'true'></amazon-delivery-message>
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
