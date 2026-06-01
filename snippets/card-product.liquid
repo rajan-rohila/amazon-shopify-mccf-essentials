@@ -147,10 +147,8 @@
         <div class="card__information">
           {% comment %} Amazon Delivery Message Element MCF++ {% endcomment %}
           <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js"></script>
-          <amazon-delivery-message
-          product-amazon-sku= "0C-UVFL-7IDD"
-          show-prime-upgrade= 'true'
-          ></amazon-delivery-message>
+        
+          <amazon-delivery-message product-amazon-sku= "0C-UVFL-7IDD" show-prime-upgrade= 'true'></amazon-delivery-message>
           
           <amazon-delivery-message product-amazon-sku= "{{ card_product.id }}" show-prime-upgrade= 'true'></amazon-delivery-message>
           <h3
