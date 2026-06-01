@@ -20,6 +20,10 @@
   Usage:
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
+ gmo-testing:
+<pre style="white-space: pre-wrap; font-size: 12px;">
+{{ collection | json }}
+</pre>
 {%- unless skip_styles -%}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
