@@ -103,11 +103,11 @@
                       {%- endif -%}
 
                       <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
-                      {% comment %} START - Amazon Delivery Message Element MCF++ {% endcomment %}
+                      {% comment %} START - Amazon Delivery Message Element MCF++ CART {% endcomment %}
                       <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js"></script>       
 
                       <amazon-delivery-message product-amazon-sku= "{{ item.product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message>
-                      {% comment %} END - Amazon Delivery Message Element MCF++ {% endcomment %}
+                      {% comment %} END - Amazon Delivery Message Element MCF++ CART {% endcomment %}
 
                       {%- if item.original_price != item.final_price -%}
                         <div class="cart-item__discounted-prices">
