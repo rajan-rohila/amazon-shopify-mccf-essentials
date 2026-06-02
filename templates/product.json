@@ -12,6 +12,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "amazon_mcf_and_buy_with_prime_delivery_card_6whEyT": {
+          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
+          "settings": {
+            "target_id": "",
+            "color_mode": "light",
+            "background_color": "",
+            "text_color": "",
+            "font_family": "",
+            "font_size_base": 14,
+            "corner_style": "rounded",
+            "border_radius": 24
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -27,6 +40,17 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_qTHAVr": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"P5-V02Y-HW3I\"\n  show-prime-upgrade=\"true\"\n  color-mode=\"light\">\n</amazon-delivery-card>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "amazon_mcf_and_buy_with_prime_delivery_card_knb3RJ": {
           "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
@@ -39,17 +63,6 @@
             "corner_style": "rounded",
             "border_radius": 24
           }
-        },
-        "custom_liquid_qTHAVr": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"P5-V02Y-HW3I\"\n  show-prime-upgrade=\"true\"\n  color-mode=\"light\">\n</amazon-delivery-card>"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -70,12 +83,13 @@
         }
       },
       "block_order": [
+        "amazon_mcf_and_buy_with_prime_delivery_card_6whEyT",
         "vendor",
         "title",
         "price",
-        "amazon_mcf_and_buy_with_prime_delivery_card_knb3RJ",
         "custom_liquid_qTHAVr",
         "quantity_selector",
+        "amazon_mcf_and_buy_with_prime_delivery_card_knb3RJ",
         "buy_buttons",
         "description",
         "share"
