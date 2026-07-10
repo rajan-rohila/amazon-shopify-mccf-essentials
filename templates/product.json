@@ -34,6 +34,17 @@
             "custom_liquid": "<amazon-delivery-card \n  product-amazon-sku=\"P5-V02Y-HW3I\"\n  show-prime-upgrade=\"true\"\n  color-mode=\"light\">\n</amazon-delivery-card>"
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
         "amazon_mcf_and_buy_with_prime_delivery_card_knb3RJ": {
           "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
@@ -46,17 +57,6 @@
             "font_size_base": 14,
             "corner_style": "rounded",
             "border_radius": 24
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
           }
         },
         "description": {
@@ -75,9 +75,9 @@
         "title",
         "price",
         "custom_liquid_qTHAVr",
-        "amazon_mcf_and_buy_with_prime_delivery_card_knb3RJ",
         "quantity_selector",
         "buy_buttons",
+        "amazon_mcf_and_buy_with_prime_delivery_card_knb3RJ",
         "description",
         "share"
       ],
@@ -126,12 +126,38 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "178364005019db3c5c": {
+      "type": "apps",
+      "blocks": {
+        "amazon_mcf_and_buy_with_prime_delivery_card_dhJiUB": {
+          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
+          "settings": {
+            "target_id": "",
+            "free_shipping_threshold": "",
+            "color_mode": "light",
+            "background_color": "",
+            "text_color": "",
+            "font_family": "",
+            "font_size_base": 14,
+            "corner_style": "rounded",
+            "border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "amazon_mcf_and_buy_with_prime_delivery_card_dhJiUB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "176115125832f51417",
-    "1761920953a4896c27"
+    "1761920953a4896c27",
+    "178364005019db3c5c"
   ]
 }
