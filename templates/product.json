@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_qm4di9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<amazon-delivery-card\n  product-sku=\"{{ product.metafields.custom.amazon_sku }}\"\nshow-prime-upgrade=\"true\"\ncolor-mode=\"light\">\n</amazon-delivery-card>"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -50,6 +56,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_qm4di9",
         "vendor",
         "title",
         "price",
