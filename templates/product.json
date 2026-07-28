@@ -14,6 +14,7 @@
       "blocks": {
         "custom_liquid_qm4di9": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<amazon-delivery-card\n  product-sku=\"{{ product.selected_or_first_available_variant.id }}\"\n  show-prime-upgrade=\"true\">\n</amazon-delivery-card>"
           }
