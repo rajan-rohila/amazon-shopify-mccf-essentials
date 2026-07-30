@@ -38,20 +38,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "amazon_mcf_and_buy_with_prime_delivery_card_KwX9jw": {
-          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
-          "settings": {
-            "target_id": "",
-            "free_shipping_threshold": "",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "",
-            "font_size_base": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        },
         "custom_liquid_qm4di9": {
           "type": "custom_liquid",
           "settings": {
@@ -75,7 +61,6 @@
         "price",
         "quantity_selector",
         "buy_buttons",
-        "amazon_mcf_and_buy_with_prime_delivery_card_KwX9jw",
         "custom_liquid_qm4di9",
         "description",
         "share"
@@ -131,6 +116,31 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "17854328747030d04d": {
+      "type": "apps",
+      "blocks": {
+        "amazon_mcf_and_buy_with_prime_delivery_card_hjRcYQ": {
+          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
+          "settings": {
+            "target_id": "",
+            "free_shipping_threshold": "",
+            "color_mode": "light",
+            "background_color": "",
+            "text_color": "",
+            "font_family": "",
+            "font_size_base": 14,
+            "corner_style": "rounded",
+            "border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "amazon_mcf_and_buy_with_prime_delivery_card_hjRcYQ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -138,6 +148,7 @@
     "related-products",
     "176115125832f51417",
     "1761920953a4896c27",
-    "178364005019db3c5c"
+    "178364005019db3c5c",
+    "17854328747030d04d"
   ]
 }
