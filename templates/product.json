@@ -41,7 +41,7 @@
         "custom_liquid_qm4di9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<amazon-delivery-card\nproduct-external-id=\"{{ product.selected_or_first_available_variant.id }}\" show-prime-upgrade=\"true\" shopify-domain=\"ycaecg-sj.myshopify.com\" color-mode=\"light\">\n</amazon-delivery-card>"
+            "custom_liquid": "<amazon-delivery-card\nprovider=\"shopify\"\napp-type=\"unified\"\nproduct-external-id=\"{{ product.selected_or_first_available_variant.id }}\" show-prime-upgrade=\"true\" shopify-domain=\"ycaecg-sj.myshopify.com\" color-mode=\"light\">\n</amazon-delivery-card>"
           }
         },
         "description": {
