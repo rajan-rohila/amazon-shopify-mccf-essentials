@@ -27,10 +27,18 @@
           "type": "price",
           "settings": {}
         },
-        "custom_liquid_qm4di9": {
-          "type": "custom_liquid",
+        "amazon_mcf_and_buy_with_prime_delivery_card_Bi4qWc": {
+          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
-            "custom_liquid": "<amazon-delivery-card\nprovider=\"shopify\"\napp-type=\"unified\"\nproduct-external-id=\"{{ product.selected_or_first_available_variant.id }}\" show-prime-upgrade=\"true\" shopify-domain=\"ycaecg-sj.myshopify.com\" color-mode=\"light\">\n</amazon-delivery-card>"
+            "target_id": "",
+            "free_shipping_threshold": "",
+            "color_mode": "light",
+            "background_color": "",
+            "text_color": "",
+            "font_family": "",
+            "font_size_base": 14,
+            "corner_style": "rounded",
+            "border_radius": 24
           }
         },
         "quantity_selector": {
@@ -59,7 +67,7 @@
         "vendor",
         "title",
         "price",
-        "custom_liquid_qm4di9",
+        "amazon_mcf_and_buy_with_prime_delivery_card_Bi4qWc",
         "quantity_selector",
         "buy_buttons",
         "description",
