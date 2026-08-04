@@ -42,7 +42,7 @@
           "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
             "target_id": "",
-            "free_shipping_threshold": "2",
+            "free_shipping_threshold": "",
             "color_mode": "light",
             "background_color": "",
             "text_color": "",
