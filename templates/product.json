@@ -27,7 +27,7 @@
           "type": "price",
           "settings": {}
         },
-        "amazon_mcf_and_buy_with_prime_delivery_card_Bi4qWc": {
+        "amazon_mcf_and_buy_with_prime_delivery_card_ttqjQP": {
           "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
             "target_id": "",
@@ -67,7 +67,7 @@
         "vendor",
         "title",
         "price",
-        "amazon_mcf_and_buy_with_prime_delivery_card_Bi4qWc",
+        "amazon_mcf_and_buy_with_prime_delivery_card_ttqjQP",
         "quantity_selector",
         "buy_buttons",
         "description",
