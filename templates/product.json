@@ -38,20 +38,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "amazon_mcf_and_buy_with_prime_delivery_card_pRzrYk": {
-          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
-          "settings": {
-            "target_id": "",
-            "free_shipping_threshold": "",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "",
-            "font_size_base": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -69,7 +55,6 @@
         "price",
         "quantity_selector",
         "buy_buttons",
-        "amazon_mcf_and_buy_with_prime_delivery_card_pRzrYk",
         "description",
         "share"
       ],
@@ -127,25 +112,6 @@
     },
     "17854328747030d04d": {
       "type": "apps",
-      "blocks": {
-        "amazon_mcf_and_buy_with_prime_delivery_card_hjRcYQ": {
-          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
-          "settings": {
-            "target_id": "",
-            "free_shipping_threshold": "",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "",
-            "font_size_base": 14,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        }
-      },
-      "block_order": [
-        "amazon_mcf_and_buy_with_prime_delivery_card_hjRcYQ"
-      ],
       "settings": {
         "include_margins": true
       }
