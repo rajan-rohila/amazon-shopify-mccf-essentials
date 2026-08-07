@@ -44,21 +44,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "amazon_mcf_and_buy_with_prime_delivery_card_pR6r9K": {
-          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
-          "settings": {
-            "target_id": "",
-            "free_shipping_threshold": "",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "Amazon Ember",
-            "font_size_base": 14,
-            "padding": 8,
-            "corner_style": "rounded",
-            "border_radius": 24
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -77,7 +62,6 @@
         "amazon_mcf_and_buy_with_prime_promotion_banner_container_ffCLcD",
         "quantity_selector",
         "buy_buttons",
-        "amazon_mcf_and_buy_with_prime_delivery_card_pR6r9K",
         "description",
         "share"
       ],
