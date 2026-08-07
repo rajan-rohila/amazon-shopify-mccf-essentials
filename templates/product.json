@@ -23,15 +23,15 @@
           "type": "title",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "amazon_mcf_and_buy_with_prime_promotion_banner_container_ffCLcD": {
           "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/promotion-banner-container/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
             "horizontal_alignment": "center"
           }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -58,8 +58,8 @@
       "block_order": [
         "vendor",
         "title",
-        "price",
         "amazon_mcf_and_buy_with_prime_promotion_banner_container_ffCLcD",
+        "price",
         "quantity_selector",
         "buy_buttons",
         "description",
