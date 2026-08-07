@@ -53,6 +53,34 @@
             "border_radius": 24
           }
         },
+        "digital_subscriptions_app_block_QHamVg": {
+          "type": "shopify://apps/digital-subscriptions/blocks/app-block/bc68acc7-f538-46e6-8f0f-e8962c4b89c3",
+          "settings": {
+            "supporting_text_title": "Purchase options",
+            "supporting_text_footer": "Cancel at any time",
+            "show_subscription_length": true,
+            "show_discount_badge": true,
+            "show_compare_price": true,
+            "color_text_title": "#6D7175",
+            "color_text_body": "#6D7175",
+            "dividers_color": "#8F8D8D",
+            "background_color": "#FFFFFF",
+            "discount_text_color": "#16a34a",
+            "discount_text_size": 14,
+            "text_body_size": 16,
+            "border_thickness": 1,
+            "border_radius": 10,
+            "padding": 10,
+            "supporting_text_download_button": "Download",
+            "content_pass_text_color": "#FFFFFF",
+            "content_pass_background_color": "#000000",
+            "content_pass_font_size": 16,
+            "content_pass_preview": false,
+            "show_download_limit": true,
+            "download_limit_text": "You have {remaining} of {total} downloads remaining until {reset_date}",
+            "custom_css": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -71,6 +99,7 @@
         "quantity_selector",
         "buy_buttons",
         "amazon_mcf_and_buy_with_prime_delivery_card_pR6r9K",
+        "digital_subscriptions_app_block_QHamVg",
         "description",
         "share"
       ],
