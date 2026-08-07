@@ -161,8 +161,9 @@
             </a>
           </h3>
           {% comment %} START - Amazon Delivery Message Element MCF++ {% endcomment %}
-          {% comment %} <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js"></script>       
-          <amazon-delivery-message product-amazon-sku= "{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message> {% endcomment %}
+           <p>!!!!! Deliver Message V1.0</p>
+           <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js"></script>       
+          <amazon-delivery-message product-amazon-sku= "{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message> 
           {% comment %} END - Amazon Delivery Message Element MCF++ {% endcomment %}
           <div class="card-information">
             {%- if show_vendor -%}
