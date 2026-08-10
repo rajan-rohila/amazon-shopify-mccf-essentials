@@ -27,19 +27,10 @@
           "type": "price",
           "settings": {}
         },
-        "amazon_mcf_and_buy_with_prime_delivery_card_Rx7qYt": {
-          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/delivery_card/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
+        "amazon_mcf_and_buy_with_prime_promotion_banner_container_XyJMhV": {
+          "type": "shopify://apps/amazon-mcf-and-buy-with-prime/blocks/promotion-banner-container/cd9463cc-4da0-4f9f-92a6-6e3f345eb3ce",
           "settings": {
-            "target_id": "",
-            "free_shipping_threshold": "",
-            "color_mode": "light",
-            "background_color": "",
-            "text_color": "",
-            "font_family": "Amazon Ember",
-            "font_size_base": 14,
-            "padding": 8,
-            "corner_style": "rounded",
-            "border_radius": 24
+            "horizontal_alignment": "center"
           }
         },
         "quantity_selector": {
@@ -68,7 +59,7 @@
         "vendor",
         "title",
         "price",
-        "amazon_mcf_and_buy_with_prime_delivery_card_Rx7qYt",
+        "amazon_mcf_and_buy_with_prime_promotion_banner_container_XyJMhV",
         "quantity_selector",
         "buy_buttons",
         "description",
