@@ -172,7 +172,7 @@
             layout="message"
             {% comment %} provider="shopify" {% endcomment %}
             app-type="unified"
-            product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}"
+            product-external-id="{{ card_product.selected_or_first_available_variant.id }}"
             {% comment %} product-external-id="{{ card_product.selected_or_first_available_variant.id }}" show-prime-upgrade= 'true'> {% endcomment %}
           </amazon-delivery-message>
           {% comment %} END - Amazon Delivery Message Element MCF++ {% endcomment %}
