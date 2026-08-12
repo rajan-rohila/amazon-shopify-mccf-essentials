@@ -166,7 +166,7 @@
           {% comment %} <amazon-delivery-message product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message> {% endcomment %}
            {% comment %} <amazon-delivery-message product-amazon-sku="{{ card_product.selected_or_first_available_variant.id | default: card_product.variants.first.id }}" show-prime-upgrade= 'true'></amazon-delivery-message> {% endcomment %}
 
-           <pre>{{ card_product.metafields | json }}</pre>
+           <pre>{{ card_product.metafields.custom | json }}</pre>
           
 
 
