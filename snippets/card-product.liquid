@@ -163,7 +163,9 @@
           {% comment %} START - Amazon Delivery Message Element MCF++ {% endcomment %}
            <p>delivery message v1.0</p>
           <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js"></script>       
-          <amazon-delivery-message product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message>
+          {% comment %} <amazon-delivery-message product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message> {% endcomment %}
+           <amazon-delivery-message product-amazon-sku="{{ card_product.selected_or_first_available_variant.id | default: card_product.variants.first.id }}" show-prime-upgrade= 'true'></amazon-delivery-message>
+          
 
 
            {% comment %} <p>delivery message v2.0</p>
