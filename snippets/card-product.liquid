@@ -161,19 +161,19 @@
             </a>
           </h3>
           {% comment %} START - Amazon Delivery Message Element MCF++ {% endcomment %}
-           <p>delivery message v1.0</p>
+           {% comment %} <p>delivery message v1.0</p>
           <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v1.0/web-component.js"></script>       
-          <amazon-delivery-message product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message>
+          <amazon-delivery-message product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}" show-prime-upgrade= 'true'></amazon-delivery-message> {% endcomment %}
 
           
 
 
          <p>delivery message v2.0</p>
           <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v2.0/web-component.js"></script>       
+
           <amazon-delivery-message 
             layout="message"
-         
-            product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}"
+            product-amazon-sku="GG-0GZU-47G1" 
             {% comment %} product-external-id="{{ card_product.selected_or_first_available_variant.id }}" {% endcomment %}
           </amazon-delivery-message> 
 
