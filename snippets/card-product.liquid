@@ -170,9 +170,9 @@
 
          <p>delivery message v2.0</p>
           <script data-target-id="bp-1164c20e-d469-419b-80ca-7031021d9d08" async type= "module" src="https://cdn.elements.amazon/elements/amazon-delivery-message/v2.0/web-component.js"></script>       
-          <amazon-delivery-message shopify-domain="{{ shop.permanent_domain }}"
+          <amazon-delivery-message 
             layout="message"
-            app-type="unified"
+         
             product-amazon-sku="{{ card_product.metafields.custom.amazon_sku }}"
             {% comment %} product-external-id="{{ card_product.selected_or_first_available_variant.id }}" {% endcomment %}
           </amazon-delivery-message> 
